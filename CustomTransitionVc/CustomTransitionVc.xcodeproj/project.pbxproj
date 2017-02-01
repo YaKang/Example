@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3A744A1E3C8FCF00935488 /* JDAddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74481E3C8FCF00935488 /* JDAddItemViewController.swift */; };
+		EF3A744B1E3C8FCF00935488 /* JDAddItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3A74491E3C8FCF00935488 /* JDAddItemViewController.xib */; };
+		EF3A744E1E3C8FEB00935488 /* JDItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A744C1E3C8FEB00935488 /* JDItemInfoViewController.swift */; };
+		EF3A744F1E3C8FEB00935488 /* JDItemInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3A744D1E3C8FEB00935488 /* JDItemInfoViewController.xib */; };
+		EF3A74511E3C953100935488 /* JDLanZiTransitioningAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74501E3C953100935488 /* JDLanZiTransitioningAnimation.swift */; };
+		EF3A74541E3CC23900935488 /* InteractivityFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74521E3CC23900935488 /* InteractivityFirstViewController.swift */; };
+		EF3A74551E3CC23900935488 /* InteractivityFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3A74531E3CC23900935488 /* InteractivityFirstViewController.xib */; };
+		EF3A74591E3CC27200935488 /* InteractivitySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74571E3CC27200935488 /* InteractivitySecondViewController.swift */; };
+		EF3A745A1E3CC27200935488 /* InteractivitySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3A74581E3CC27200935488 /* InteractivitySecondViewController.xib */; };
+		EF3A74651E3DF1F800935488 /* InteractivityViewControllerTrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74641E3DF1F800935488 /* InteractivityViewControllerTrans.swift */; };
+		EF3A74671E3DF3B000935488 /* InteractivityTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74661E3DF3B000935488 /* InteractivityTransitionAnimator.swift */; };
+		EF3A74691E3E164B00935488 /* TransitionInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A74681E3E164B00935488 /* TransitionInteractionController.swift */; };
+		EFDDD8E11E3B974900802523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD8E01E3B974900802523 /* AppDelegate.swift */; };
+		EFDDD8E31E3B974900802523 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD8E21E3B974900802523 /* ViewController.swift */; };
+		EFDDD8E61E3B974900802523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDDD8E41E3B974900802523 /* Main.storyboard */; };
+		EFDDD8E81E3B974900802523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDDD8E71E3B974900802523 /* Assets.xcassets */; };
+		EFDDD8EB1E3B974900802523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDDD8E91E3B974900802523 /* LaunchScreen.storyboard */; };
+		EFDDD8F61E3B974900802523 /* CustomTransitionVcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD8F51E3B974900802523 /* CustomTransitionVcTests.swift */; };
+		EFDDD9011E3B974900802523 /* CustomTransitionVcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD9001E3B974900802523 /* CustomTransitionVcUITests.swift */; };
+		EFDDD9101E3B97D100802523 /* SLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD90F1E3B97D100802523 /* SLViewController.swift */; };
+		EFDDD9121E3B9A2100802523 /* SLTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD9111E3B9A2100802523 /* SLTwoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDDD8F21E3B974900802523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDDD8D51E3B974900802523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDDD8DC1E3B974900802523;
+			remoteInfo = CustomTransitionVc;
+		};
+		EFDDD8FD1E3B974900802523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDDD8D51E3B974900802523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDDD8DC1E3B974900802523;
+			remoteInfo = CustomTransitionVc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF3A74481E3C8FCF00935488 /* JDAddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDAddItemViewController.swift; sourceTree = "<group>"; };
+		EF3A74491E3C8FCF00935488 /* JDAddItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDAddItemViewController.xib; sourceTree = "<group>"; };
+		EF3A744C1E3C8FEB00935488 /* JDItemInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDItemInfoViewController.swift; sourceTree = "<group>"; };
+		EF3A744D1E3C8FEB00935488 /* JDItemInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDItemInfoViewController.xib; sourceTree = "<group>"; };
+		EF3A74501E3C953100935488 /* JDLanZiTransitioningAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDLanZiTransitioningAnimation.swift; sourceTree = "<group>"; };
+		EF3A74521E3CC23900935488 /* InteractivityFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivityFirstViewController.swift; sourceTree = "<group>"; };
+		EF3A74531E3CC23900935488 /* InteractivityFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InteractivityFirstViewController.xib; sourceTree = "<group>"; };
+		EF3A74571E3CC27200935488 /* InteractivitySecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivitySecondViewController.swift; sourceTree = "<group>"; };
+		EF3A74581E3CC27200935488 /* InteractivitySecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InteractivitySecondViewController.xib; sourceTree = "<group>"; };
+		EF3A74641E3DF1F800935488 /* InteractivityViewControllerTrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivityViewControllerTrans.swift; sourceTree = "<group>"; };
+		EF3A74661E3DF3B000935488 /* InteractivityTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivityTransitionAnimator.swift; sourceTree = "<group>"; };
+		EF3A74681E3E164B00935488 /* TransitionInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionInteractionController.swift; sourceTree = "<group>"; };
+		EFDDD8DD1E3B974900802523 /* CustomTransitionVc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionVc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDD8E01E3B974900802523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFDDD8E21E3B974900802523 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDDD8E51E3B974900802523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDDD8E71E3B974900802523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDDD8EA1E3B974900802523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDDD8EC1E3B974900802523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDDD8F11E3B974900802523 /* CustomTransitionVcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionVcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDD8F51E3B974900802523 /* CustomTransitionVcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionVcTests.swift; sourceTree = "<group>"; };
+		EFDDD8F71E3B974900802523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDDD8FC1E3B974900802523 /* CustomTransitionVcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionVcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDD9001E3B974900802523 /* CustomTransitionVcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionVcUITests.swift; sourceTree = "<group>"; };
+		EFDDD9021E3B974900802523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDDD90F1E3B97D100802523 /* SLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLViewController.swift; sourceTree = "<group>"; };
+		EFDDD9111E3B9A2100802523 /* SLTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLTwoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDDD8DA1E3B974900802523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDD8EE1E3B974900802523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDD8F91E3B974900802523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3A74471E3C8C7E00935488 /* 自定义MOdel */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A74481E3C8FCF00935488 /* JDAddItemViewController.swift */,
+				EF3A74491E3C8FCF00935488 /* JDAddItemViewController.xib */,
+				EF3A744C1E3C8FEB00935488 /* JDItemInfoViewController.swift */,
+				EF3A744D1E3C8FEB00935488 /* JDItemInfoViewController.xib */,
+				EF3A74501E3C953100935488 /* JDLanZiTransitioningAnimation.swift */,
+			);
+			name = "自定义MOdel";
+			sourceTree = "<group>";
+		};
+		EF3A74561E3CC23D00935488 /* 手势驱动 */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A74521E3CC23900935488 /* InteractivityFirstViewController.swift */,
+				EF3A74531E3CC23900935488 /* InteractivityFirstViewController.xib */,
+				EF3A74571E3CC27200935488 /* InteractivitySecondViewController.swift */,
+				EF3A74581E3CC27200935488 /* InteractivitySecondViewController.xib */,
+				EF3A74641E3DF1F800935488 /* InteractivityViewControllerTrans.swift */,
+				EF3A74661E3DF3B000935488 /* InteractivityTransitionAnimator.swift */,
+				EF3A74681E3E164B00935488 /* TransitionInteractionController.swift */,
+			);
+			name = "手势驱动";
+			sourceTree = "<group>";
+		};
+		EFDDD8D41E3B974900802523 = {
+			isa = PBXGroup;
+			children = (
+				EFDDD8DF1E3B974900802523 /* CustomTransitionVc */,
+				EFDDD8F41E3B974900802523 /* CustomTransitionVcTests */,
+				EFDDD8FF1E3B974900802523 /* CustomTransitionVcUITests */,
+				EFDDD8DE1E3B974900802523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDDD8DE1E3B974900802523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDD8DD1E3B974900802523 /* CustomTransitionVc.app */,
+				EFDDD8F11E3B974900802523 /* CustomTransitionVcTests.xctest */,
+				EFDDD8FC1E3B974900802523 /* CustomTransitionVcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDDD8DF1E3B974900802523 /* CustomTransitionVc */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A74561E3CC23D00935488 /* 手势驱动 */,
+				EF3A74471E3C8C7E00935488 /* 自定义MOdel */,
+				EFDDD90E1E3B976D00802523 /* 系统自带Model */,
+				EFDDD8E01E3B974900802523 /* AppDelegate.swift */,
+				EFDDD8E21E3B974900802523 /* ViewController.swift */,
+				EFDDD8E41E3B974900802523 /* Main.storyboard */,
+				EFDDD8E71E3B974900802523 /* Assets.xcassets */,
+				EFDDD8E91E3B974900802523 /* LaunchScreen.storyboard */,
+				EFDDD8EC1E3B974900802523 /* Info.plist */,
+			);
+			path = CustomTransitionVc;
+			sourceTree = "<group>";
+		};
+		EFDDD8F41E3B974900802523 /* CustomTransitionVcTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDD8F51E3B974900802523 /* CustomTransitionVcTests.swift */,
+				EFDDD8F71E3B974900802523 /* Info.plist */,
+			);
+			path = CustomTransitionVcTests;
+			sourceTree = "<group>";
+		};
+		EFDDD8FF1E3B974900802523 /* CustomTransitionVcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDD9001E3B974900802523 /* CustomTransitionVcUITests.swift */,
+				EFDDD9021E3B974900802523 /* Info.plist */,
+			);
+			path = CustomTransitionVcUITests;
+			sourceTree = "<group>";
+		};
+		EFDDD90E1E3B976D00802523 /* 系统自带Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDD90F1E3B97D100802523 /* SLViewController.swift */,
+				EFDDD9111E3B9A2100802523 /* SLTwoViewController.swift */,
+			);
+			name = "系统自带Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDDD8DC1E3B974900802523 /* CustomTransitionVc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDD9051E3B974900802523 /* Build configuration list for PBXNativeTarget "CustomTransitionVc" */;
+			buildPhases = (
+				EFDDD8D91E3B974900802523 /* Sources */,
+				EFDDD8DA1E3B974900802523 /* Frameworks */,
+				EFDDD8DB1E3B974900802523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTransitionVc;
+			productName = CustomTransitionVc;
+			productReference = EFDDD8DD1E3B974900802523 /* CustomTransitionVc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDDD8F01E3B974900802523 /* CustomTransitionVcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDD9081E3B974900802523 /* Build configuration list for PBXNativeTarget "CustomTransitionVcTests" */;
+			buildPhases = (
+				EFDDD8ED1E3B974900802523 /* Sources */,
+				EFDDD8EE1E3B974900802523 /* Frameworks */,
+				EFDDD8EF1E3B974900802523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDDD8F31E3B974900802523 /* PBXTargetDependency */,
+			);
+			name = CustomTransitionVcTests;
+			productName = CustomTransitionVcTests;
+			productReference = EFDDD8F11E3B974900802523 /* CustomTransitionVcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDDD8FB1E3B974900802523 /* CustomTransitionVcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDD90B1E3B974900802523 /* Build configuration list for PBXNativeTarget "CustomTransitionVcUITests" */;
+			buildPhases = (
+				EFDDD8F81E3B974900802523 /* Sources */,
+				EFDDD8F91E3B974900802523 /* Frameworks */,
+				EFDDD8FA1E3B974900802523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDDD8FE1E3B974900802523 /* PBXTargetDependency */,
+			);
+			name = CustomTransitionVcUITests;
+			productName = CustomTransitionVcUITests;
+			productReference = EFDDD8FC1E3B974900802523 /* CustomTransitionVcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDDD8D51E3B974900802523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王亚康";
+				TargetAttributes = {
+					EFDDD8DC1E3B974900802523 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V4DYWFA248;
+						ProvisioningStyle = Automatic;
+					};
+					EFDDD8F01E3B974900802523 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V4DYWFA248;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFDDD8DC1E3B974900802523;
+					};
+					EFDDD8FB1E3B974900802523 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V4DYWFA248;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFDDD8DC1E3B974900802523;
+					};
+				};
+			};
+			buildConfigurationList = EFDDD8D81E3B974900802523 /* Build configuration list for PBXProject "CustomTransitionVc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDDD8D41E3B974900802523;
+			productRefGroup = EFDDD8DE1E3B974900802523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDDD8DC1E3B974900802523 /* CustomTransitionVc */,
+				EFDDD8F01E3B974900802523 /* CustomTransitionVcTests */,
+				EFDDD8FB1E3B974900802523 /* CustomTransitionVcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDDD8DB1E3B974900802523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDD8EB1E3B974900802523 /* LaunchScreen.storyboard in Resources */,
+				EF3A744F1E3C8FEB00935488 /* JDItemInfoViewController.xib in Resources */,
+				EF3A744B1E3C8FCF00935488 /* JDAddItemViewController.xib in Resources */,
+				EF3A74551E3CC23900935488 /* InteractivityFirstViewController.xib in Resources */,
+				EFDDD8E81E3B974900802523 /* Assets.xcassets in Resources */,
+				EFDDD8E61E3B974900802523 /* Main.storyboard in Resources */,
+				EF3A745A1E3CC27200935488 /* InteractivitySecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDD8EF1E3B974900802523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDD8FA1E3B974900802523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDDD8D91E3B974900802523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDD9121E3B9A2100802523 /* SLTwoViewController.swift in Sources */,
+				EF3A74651E3DF1F800935488 /* InteractivityViewControllerTrans.swift in Sources */,
+				EFDDD9101E3B97D100802523 /* SLViewController.swift in Sources */,
+				EFDDD8E31E3B974900802523 /* ViewController.swift in Sources */,
+				EF3A74671E3DF3B000935488 /* InteractivityTransitionAnimator.swift in Sources */,
+				EF3A74511E3C953100935488 /* JDLanZiTransitioningAnimation.swift in Sources */,
+				EF3A74591E3CC27200935488 /* InteractivitySecondViewController.swift in Sources */,
+				EFDDD8E11E3B974900802523 /* AppDelegate.swift in Sources */,
+				EF3A744A1E3C8FCF00935488 /* JDAddItemViewController.swift in Sources */,
+				EF3A744E1E3C8FEB00935488 /* JDItemInfoViewController.swift in Sources */,
+				EF3A74541E3CC23900935488 /* InteractivityFirstViewController.swift in Sources */,
+				EF3A74691E3E164B00935488 /* TransitionInteractionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDD8ED1E3B974900802523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDD8F61E3B974900802523 /* CustomTransitionVcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDD8F81E3B974900802523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDD9011E3B974900802523 /* CustomTransitionVcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDDD8F31E3B974900802523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDDD8DC1E3B974900802523 /* CustomTransitionVc */;
+			targetProxy = EFDDD8F21E3B974900802523 /* PBXContainerItemProxy */;
+		};
+		EFDDD8FE1E3B974900802523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDDD8DC1E3B974900802523 /* CustomTransitionVc */;
+			targetProxy = EFDDD8FD1E3B974900802523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFDDD8E41E3B974900802523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDDD8E51E3B974900802523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDDD8E91E3B974900802523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDDD8EA1E3B974900802523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDDD9031E3B974900802523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDDD9041E3B974900802523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDDD9061E3B974900802523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4DYWFA248;
+				INFOPLIST_FILE = CustomTransitionVc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.CustomTransitionVc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFDDD9071E3B974900802523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4DYWFA248;
+				INFOPLIST_FILE = CustomTransitionVc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.CustomTransitionVc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFDDD9091E3B974900802523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4DYWFA248;
+				INFOPLIST_FILE = CustomTransitionVcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.CustomTransitionVcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransitionVc.app/CustomTransitionVc";
+			};
+			name = Debug;
+		};
+		EFDDD90A1E3B974900802523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4DYWFA248;
+				INFOPLIST_FILE = CustomTransitionVcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.CustomTransitionVcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransitionVc.app/CustomTransitionVc";
+			};
+			name = Release;
+		};
+		EFDDD90C1E3B974900802523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4DYWFA248;
+				INFOPLIST_FILE = CustomTransitionVcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.CustomTransitionVcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomTransitionVc;
+			};
+			name = Debug;
+		};
+		EFDDD90D1E3B974900802523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4DYWFA248;
+				INFOPLIST_FILE = CustomTransitionVcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.CustomTransitionVcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomTransitionVc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDDD8D81E3B974900802523 /* Build configuration list for PBXProject "CustomTransitionVc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDD9031E3B974900802523 /* Debug */,
+				EFDDD9041E3B974900802523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDD9051E3B974900802523 /* Build configuration list for PBXNativeTarget "CustomTransitionVc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDD9061E3B974900802523 /* Debug */,
+				EFDDD9071E3B974900802523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDD9081E3B974900802523 /* Build configuration list for PBXNativeTarget "CustomTransitionVcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDD9091E3B974900802523 /* Debug */,
+				EFDDD90A1E3B974900802523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDD90B1E3B974900802523 /* Build configuration list for PBXNativeTarget "CustomTransitionVcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDD90C1E3B974900802523 /* Debug */,
+				EFDDD90D1E3B974900802523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDDD8D51E3B974900802523 /* Project object */;
+}

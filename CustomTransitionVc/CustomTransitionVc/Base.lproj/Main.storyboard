@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bdh-Qi-5uo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomTransitionVc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiC-K2-cdf">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ski-YN-M1A"/>
+                                </constraints>
+                                <state key="normal" title="model转场"/>
+                                <connections>
+                                    <action selector="modelClick1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="th8-it-Exy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nge-x0-NVL">
+                                <rect key="frame" x="0.0" y="124" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="zeh-fS-ns4"/>
+                                </constraints>
+                                <state key="normal" title="model手势转场"/>
+                                <connections>
+                                    <action selector="modelClick2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uPS-zO-gbM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4P-L5-08P">
+                                <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="zJa-Vl-nDz"/>
+                                </constraints>
+                                <state key="normal" title="nav转场"/>
+                                <connections>
+                                    <action selector="navClick1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qbk-0q-XOe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CS-cT-G2V">
+                                <rect key="frame" x="0.0" y="228" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="myW-Y3-WIm"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="navClick2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AO1-V8-QUE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6CS-cT-G2V" secondAttribute="trailing" id="AG4-m5-L7K"/>
+                            <constraint firstItem="IiC-K2-cdf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GGc-7u-fHA"/>
+                            <constraint firstItem="I4P-L5-08P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H2g-r6-cR0"/>
+                            <constraint firstItem="IiC-K2-cdf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="R3Z-eu-9H1"/>
+                            <constraint firstItem="Nge-x0-NVL" firstAttribute="top" secondItem="IiC-K2-cdf" secondAttribute="bottom" constant="8" id="UuC-tM-ry9"/>
+                            <constraint firstItem="Nge-x0-NVL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XEq-gc-wVx"/>
+                            <constraint firstItem="6CS-cT-G2V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XjE-KW-pq9"/>
+                            <constraint firstItem="6CS-cT-G2V" firstAttribute="top" secondItem="I4P-L5-08P" secondAttribute="bottom" constant="8" id="b0x-Bs-7W0"/>
+                            <constraint firstAttribute="trailing" secondItem="I4P-L5-08P" secondAttribute="trailing" id="chY-TN-W0Z"/>
+                            <constraint firstAttribute="trailing" secondItem="Nge-x0-NVL" secondAttribute="trailing" id="dGb-V4-q5c"/>
+                            <constraint firstAttribute="trailing" secondItem="IiC-K2-cdf" secondAttribute="trailing" id="hO2-S6-pjR"/>
+                            <constraint firstItem="I4P-L5-08P" firstAttribute="top" secondItem="Nge-x0-NVL" secondAttribute="bottom" constant="8" id="y9i-kl-bav"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DLs-yt-B2y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="137.18140929535232"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hqr-HN-LSN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bdh-Qi-5uo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i0m-MF-kDH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="axP-db-DRb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zy8-Ci-5Vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="-545.57721139430294"/>
+        </scene>
+    </scenes>
+</document>
